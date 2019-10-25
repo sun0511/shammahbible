@@ -30,9 +30,6 @@ def get_secret(setting, secret=secret):
 
 SECRET_KEY = get_secret('SECRET_KEY')
 
-ALLOWED_HOSTS = []
-
-
 # Application definition
 
 INSTALLED_APPS = [
