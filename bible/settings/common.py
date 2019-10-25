@@ -47,6 +47,10 @@ INSTALLED_APPS = [
     'post'
 ]
 
+GRAPHENE = {
+    'SCHEMA': 'bible.schema'
+}
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
