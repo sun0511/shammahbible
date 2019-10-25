@@ -48,7 +48,7 @@ INSTALLED_APPS = [
 ]
 
 GRAPHENE = {
-    'SCHEMA': 'bible.schema'
+    'SCHEMA': 'bible.schema.schema'
 }
 
 MIDDLEWARE = [
