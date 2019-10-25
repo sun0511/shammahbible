@@ -7,7 +7,7 @@ class PostType(DjangoObjectType):
         model = Post
 
 class Query(object):
-    all_Posts = graphene.List(PostType)
+    all_posts = graphene.List(PostType)
 
     def resolve_all_posts(self, info, **kwargs):
         return Post.objects.all()
