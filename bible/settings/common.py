@@ -29,7 +29,6 @@ def get_secret(setting, secret=secret):
         msg = "Set key '{0}' in secret.json".format(setting)
 
 SECRET_KEY = get_secret('SECRET_KEY')
-DEBUG = False
 
 ALLOWED_HOSTS = []
 
