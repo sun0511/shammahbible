@@ -1,5 +1,5 @@
 import graphene
-from bible.schema import Query as PostQuery
+from post.schema import Query as PostQuery
 
 class Query(PostQuery, graphene.ObjectType):
     pass
