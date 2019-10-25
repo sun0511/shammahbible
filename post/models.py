@@ -8,3 +8,5 @@ class Post(models.Model):
     audio = models.FileField()
     created_At = models.DateTimeField(auto_now_add=True)
     updated_At = models.DateTimeField(auto_now=True)
+    def __str__(self):
+        return self.title
